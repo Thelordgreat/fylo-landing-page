@@ -1,0 +1,24 @@
+{
+  "name": "fylo-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./style.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thelordgreat/fylo-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thelordgreat/fylo-landing-page/issues"
+  },
+  "homepage": "https://github.com/Thelordgreat/fylo-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
