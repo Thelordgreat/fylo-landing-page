@@ -4,14 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet">
     <title>Fylo landing page</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    
-      <h1 class="text-3xl text-center">Hello world</h1>
       <section></section>
       <section></section>
-      <section></section>
+
+    <!-- call to action section  -->
+
+      <section id="early-access" class="bg-desaturatedBlue h-48 items-center py-10" >
+        <div class="container flex flex-col  text-center text-white mx-auto md:flex-row  md:justify-between ">
+          <!-- get early access  -->
+          <div class="md:text-left md:w-1/2 space-y-4">
+              <h1 class="text-4xl font-bold">Get early access today</h1>
+              <p class="md:text-sm">It only takes a minute for you to sign up and our free starter tier is extremly generous. If you have any questions, our support team would be happy to help you.</p>
+          </div>
+  
+         <!-- form  -->
+         <div class="md:w-1/3">
+           <form>
+             <div class="container flex flex-col">
+               <input type="email" placeholder="email@example.com" class="text-xs py-2 focus:outline-none px-4 shadow-sm md:pr-9"/> 
+               <input type="submit" class="bg-moderateBlue mt-4 px-9 py-2 md:w-2/3 text-sm" value="Get Started For Free"/>
+             </div>
+           </form>
+         </div>
+        </div>
+      </section>
+
+      <!-- footer section -->
+
+      <footer class="bg-veryDarkBlue p-14">
+          <img class="mb-9" src="/fylo-landing-page/images/logo-white.svg" alt="">
+          <div class="text-white stroke-white space-y-6 md:flex md:flex-1 md:space-x-5 md:justify-between">
+            <div class="space-y-4 md:flex md:flex-row">
+              <div class="flex flex-row space-x-4 mb-4">
+                <img class="m-0" src="/fylo-landing-page/images/icon-phone.svg" alt="">
+                <p>Phone:+1-543-123-4567</p>
+              </div>
+              <div class="flex flex-row space-x-4">
+                <img class="h-4" src="/fylo-landing-page/images/icon-email.svg" alt="">
+                <p>Phone:example@fylo.com</p>
+              </div>
+            <div class="space-y-4">
+              <p>About Us</p>
+              <p>Jobs</p>
+              <p>Press</p>
+              <p>Blog</p>
+            </div>
+            <div class="space-y-4">
+              <p>Contact Us</p>
+              <p>Terms</p>
+              <p>Privacy</p>
+            </div>
+            <div class="flex space-x-4">
+              <a href="#"><img src="/fylo-landing-page/images/icon-facebook.svg" alt=""></a>
+              <a href="#"><img src="/fylo-landing-page/images/icon-twitter.svg" alt=""></a>
+              <a href="#"><img src="/fylo-landing-page/images/icon-instagram.svg" alt=""></a>
+            </div>
+          </div>
+        
+      </footer>
   </body>
 </html>
