@@ -8,9 +8,51 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    
-      <h1 class="text-3xl text-center">Hello world</h1>
-      <section></section>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6 ">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div>
+          <img src="./images/logo.svg" alt="Logo">
+        </div>
+
+        <!-- Menu items -->
+        <div class="space-x-5">
+          <a href="#" class="hover:text-lightGray">Features</a>
+          <a href="#" class="hover:text-lightGray">Team</a>
+          <a href="#" class="hover:text-lightGray">Sign In</a>
+        </div>
+      </div>
+    </nav>
+      <!-- Hero Section -->
+      <section>
+        <div class="container px-6 flex flex-col-reverse space-y-0 mx-auto mt-10 md:flex-row">
+          <!-- left Item -->
+          <div class="flex flex-col mb-32 space-y-6 my-10 md:w-1/2 md:mx-5 md:justify-start">
+            <h1 class="max-w-md text-3xl text-center font-bold mt-6 md:text-3xl md:text-left md:mt-0">All your files in one secure location, accessible anywhere.</h1>
+            <p class="max-w-sm text-center mx-auto md:text-left md:mx-0 ">Fylo stores all your most important files in one secure location. Access them whenever you need, share and collaborate with friends, family and co-workers</p>
+            
+            <!-- Input container -->
+            <div class="container flex flex-col">
+              <form action="#">
+                <div class="flex flex-col w-5/6 mx-auto md:flex-row md:mx-0 md:space-y-0 md:space-x-5 md:relative">
+                  <input type="email" placeholder="Enter your email" class="border rounded-sm px-4 py-2 text-sm focus:outline-none border-slate-300 focus:border-sky-500  invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 peer md:w-3/5 required:border-red-500"/>
+                  <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm md:absolute md:top-11 md:-left-5">Please check your email</p>
+                  <input type="submit" class="bg-moderateBlue text-white round-sm text-sm py-2 rounded-sm cursor-pointer hover:bg-blue-400 md:w-2/5" value="Get Started"/>
+      
+                </div>
+              </form>
+              
+            </div>
+            
+          </div>
+
+          <!-- Right item -->
+          <div class="md:w-1/2">
+            <img src="./images/illustration-1.svg">
+          </div>
+        </div>
+      </section>
       <section></section>
       <section></section>
   </body>
